@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>바로팩토리 - 자료실</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">바로팩토리</a>
+      <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="메뉴">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">서비스 소개</a></li>
+        <li><a href="installation.html">설치안내</a></li>
+        <li><a href="contact.html">문의하기</a></li>
+        <li><a href="resources.html" class="active">자료실</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>자료실</h1>
+    <p>바로팩토리 홍보영상 및 튜토리얼</p>
+  </section>
+
+  <!-- Resource List -->
+  <section class="section">
+    <div class="container">
+      <div class="resource-list">
+
+        <!-- Promotional Video -->
+        <div class="resource-item">
+          <span class="resource-tag resource-tag--promo">홍보영상</span>
+          <h3>제조를 잘 아는 진짜 스마트팩토리 솔루션 '바로팩토리'</h3>
+          <p>연합시스템 50년 제조 업력의 노하우를 담은 제조를 잘 아는 진짜 스마트팩토리 솔루션 BAROFACTORY. 공장의 생산 효율이 떨어지나요? 공장의 인력 관리가 어려우신가요? 스마트팩토리 도입하고 싶지만 어떻게 해야할지 몰라 고민이신가요?</p>
+          <p>한 사람이 공작기계 3대 5대를 관리할 수 있게 되는 비결! 공작기계를 위한 내비게이션 BAROFACTORY</p>
+          <a href="https://barofactory.kr/%ec%9e%90%eb%a3%8c%ec%8b%a4/" class="resource-link" target="_blank" rel="noopener">
+            원본 사이트에서 보기
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+        </div>
+
+        <!-- Tutorial 1 -->
+        <div class="resource-item">
+          <span class="resource-tag resource-tag--tutorial">튜토리얼</span>
+          <h3>바로팩토리 – 실시간 공정 모니터링</h3>
+          <p>바로팩토리 사용법 – 실시간 공정 모니터링편</p>
+          <ul class="resource-features">
+            <li>실시간 공정 모니터링</li>
+            <li>전체공정 한눈에 파악</li>
+            <li>공정별 실시간 Cycle Time 확인</li>
+            <li>LOT 완료 시각 파악</li>
+          </ul>
+          <a href="https://barofactory.kr/wp-content/uploads/2025/03/%EC%8B%A4%EC%8B%9C%EA%B0%84-%EA%B3%B5%EC%A0%95-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81.mov" class="resource-link" target="_blank" rel="noopener">
+            영상 보기
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          </a>
+        </div>
+
+        <!-- Tutorial 2 -->
+        <div class="resource-item">
+          <span class="resource-tag resource-tag--tutorial">튜토리얼</span>
+          <h3>바로팩토리 – 생산분석</h3>
+          <p>바로팩토리 사용법 – 생산분석편</p>
+          <ul class="resource-features">
+            <li>직관적인 공정 분석</li>
+            <li>LOT별 공정 추이를 시각화 차트로 제공</li>
+            <li>직관적인 공정 이상 유무 파악 가능</li>
+          </ul>
+          <a href="https://barofactory.kr/wp-content/uploads/2025/03/%EC%83%9D%EC%82%B0%EB%B6%84%EC%84%9D.mov" class="resource-link" target="_blank" rel="noopener">
+            영상 보기
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          </a>
+        </div>
+
+        <!-- Tutorial 3 -->
+        <div class="resource-item">
+          <span class="resource-tag resource-tag--tutorial">튜토리얼</span>
+          <h3>바로팩토리 – 생산이력, 품번검색</h3>
+          <p>바로팩토리 사용법 – 생산이력, 품번검색</p>
+          <ul class="resource-features">
+            <li>상세한 가공 정보, 이력조회</li>
+            <li>기계 데이터 추출로 생산 이력 자동 생성</li>
+            <li>상세 가공 정보 제공</li>
+            <li>품번별 정보 조회 가능</li>
+          </ul>
+          <a href="https://barofactory.kr/wp-content/uploads/2025/03/%EC%83%9D%EC%82%B0%EC%9D%B4%EB%A0%A5-%ED%92%88%EB%B2%88%EC%A1%B0%ED%9A%8C.mov" class="resource-link" target="_blank" rel="noopener">
+            영상 보기
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">바로팩토리</div>
+        <div class="footer-info">
+          제조를 잘 아는 진짜 스마트팩토리 솔루션
+        </div>
+      </div>
+      <div class="footer-contact">
+        Email: <a href="mailto:sales@yhs-corp.com">sales@yhs-corp.com</a><br>
+        Phone: 032-675-0101<br>
+        Manager: 010-3080-9028
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2025 바로팩토리. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>

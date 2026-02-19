@@ -1,2 +1,180 @@
-ok
 
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>바로팩토리 - 서비스 소개</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">바로팩토리</a>
+      <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="메뉴">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">서비스 소개</a></li>
+        <li><a href="installation.html">설치안내</a></li>
+        <li><a href="contact.html">문의하기</a></li>
+        <li><a href="resources.html">자료실</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>서비스 소개</h1>
+  </section>
+
+  <!-- Section 1: 바로팩토리 제공 정보 -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">바로팩토리 제공 정보</h2>
+      <p class="section-subtitle">아래 항목이 궁금하신가요? 바로팩토리 하나면 모두 알 수 있습니다!</p>
+      <p class="intro-text">제조 경력 50년 이상의 연합시스템은 오랜 시간 고민한 끝에 실시간 가공 상태부터 작업자 시간 관리까지 세밀하게 관리하여 제품 품질력을 높이고 생산 현장에 필요한 정보를 파악해 생산과 근무 효율을 높이는 바로팩토리를 완성하였습니다.</p>
+
+      <div class="feature-cards">
+        <!-- Card 1 -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+            </svg>
+          </div>
+          <h3>개별제조원가</h3>
+          <p>제공된 정확한 실 CT를 매일 보고서로 제공하여 임률만 있으면 개별제조원가 계산이 가능하므로 원가절감 효과가 있습니다.</p>
+        </div>
+        <!-- Card 2 -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/>
+            </svg>
+          </div>
+          <h3>생산현황</h3>
+          <p>가공명, 품번, 생산 개수, 동작 현황, 목표 달성률, CT 등을 사용자 입력 없이도 기계에서 자동 집계하여 전체 현황을 한눈에 볼 수 있습니다.</p>
+        </div>
+        <!-- Card 3 -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+            </svg>
+          </div>
+          <h3>LOT 생산 완료 예정 시각 예측</h3>
+          <p>인공지능, 통계 기법을 활용한 가공 데이터 분석으로 LOT 완료 예정시각을 분 단위로 예측할 수 있습니다.</p>
+        </div>
+        <!-- Card 4 -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+            </svg>
+          </div>
+          <h3>생산성 향상</h3>
+          <p>세팅 시간, 준비교체시간, 가공 시간의 비중을 산출하여 셋 중 시간 비중이 가장 큰 요소를 파악하고 요소별로 최적화 방안을 제안해 드립니다.</p>
+        </div>
+        <!-- Card 5 -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 20V10M18 20V4M6 20v-4"/>
+            </svg>
+          </div>
+          <h3>싸이클 타임</h3>
+          <p>생산현장에서의 집계가 현실적으로 불가능했던 준비교체시간과 세팅 시간까지 산출하여 이 세 가지 요소를 합한 정확한 실 CT를 제공합니다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: 바로팩토리의 강점 -->
+  <section class="section section--navy">
+    <div class="container">
+      <h2 class="section-title">바로팩토리의 강점</h2>
+      <p class="section-subtitle">다른 스마트팩토리와 무엇이 다를까요?</p>
+      <div class="strength-block">
+        <p class="tagline">내비게이션 없는 초행길, 괜찮을까요?</p>
+        <p class="desc">바로팩토리 없이 생산현장을 운영하는 것은 내비게이션 없이 모르는 길을 가는 것과 같습니다.</p>
+        <p class="desc">바로팩토리는 급변하는 소비자 수요에 신속 대응이 가능한 스마트팩토리 플랫폼입니다. 소규모 업체도 부담없이 스마트팩토리 구축이 가능하며 제조 기업의 경쟁력 강화와 나아가 국내 제조 산업 전반의 발전에 이바지할 수 있습니다.</p>
+        <a href="contact.html" class="btn btn--cyan">문의하기</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: 노는 기계 X 매출 UP -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">노는 기계 X 매출 UP</h2>
+      <p class="section-subtitle">현장에 꼭 필요하고 쓰임이 많은 서비스!</p>
+      <p class="intro-text">가공시간 단축 및 생산성 향상에 효과적이며 귀사의 전문 분야를 파악하여 일거리 연결 그리고 실시간 공정 최적화까지!</p>
+
+      <div class="grid-4">
+        <div class="grid-item">
+          <h3>
+            <span class="icon-sm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></span>
+            노는 기계 X 매출 UP
+          </h3>
+          <p>가공시간 단축 및 생산성 향상에 효과적이며 귀사의 전문 분야를 파악하여 일거리 연결 그리고 실시간 공정 최적화까지!</p>
+        </div>
+        <div class="grid-item">
+          <h3>
+            <span class="icon-sm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
+            오늘 설치 내일 사용!
+          </h3>
+          <p>번거로운 구축 작업없이 쉽고 간단하게! 바로팩토리 설치 직원이 직접 네트워크 세팅과 모니터까지 설치하면 바로팩토리 서비스 시작!</p>
+        </div>
+        <div class="grid-item">
+          <h3>
+            <span class="icon-sm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></span>
+            저렴한 비용 쉬운 사용법
+          </h3>
+          <p>스마트팩토리 전환의 현실적인 문제는 비용 부담! 월 구독형 서비스라 저렴한 초기 비용 투자로 누구나 쉽게 도입 가능</p>
+        </div>
+        <div class="grid-item">
+          <h3>
+            <span class="icon-sm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20h20M5 20V8l7-5 7 5v12"/><path d="M9 20v-6h6v6"/></svg></span>
+            제조업체가 만든 서비스!
+          </h3>
+          <p>50년 이상의 제조 역사를 가진 연합시스템이 현장에서 필요한 것을 직접 개발하고 실제 적용, 검증까지 완료!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 4: Banner -->
+  <section class="section section--cyan banner">
+    <div class="container">
+      <h2>공장의 모든 것 한눈에 볼 수 있습니다</h2>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">바로팩토리</div>
+        <div class="footer-info">
+          제조를 잘 아는 진짜 스마트팩토리 솔루션
+        </div>
+      </div>
+      <div class="footer-contact">
+        Email: <a href="mailto:sales@yhs-corp.com">sales@yhs-corp.com</a><br>
+        Phone: 032-675-0101<br>
+        Manager: 010-3080-9028
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2025 바로팩토리. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
